@@ -1,7 +1,6 @@
 package cucumberPrueba;
 
 import org.junit.runner.RunWith;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
@@ -10,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"Modulos/login/LoginPrueba.feature"},
 			glue = "",
-		tags = {"@tagMyAutomationPractice"}
+		tags = {"@prioridadAlta"}
 		
 		)
 public class CucumberRunner {
